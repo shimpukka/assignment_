@@ -1,0 +1,26 @@
+{
+  "name": "liana",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "http://shimpukka.github.io/liana",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "react-svg-loader": "^2.1.0",
+    "svg-react-loader": "^0.4.5",
+    "tachyons": "^4.9.1",
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,0 +1,34 @@
+#Hero{
+	background-image: url(./images/computer.jpg);
+	background-size: cover;
+}
+
+.icon {
+	font-size: 4rem;
+	color: #417d26;
+}
+
+
+
+#photo1{
+	background-image: url(./images/meeting.jpg);
+	background-size: cover;
+
+}
+
+#photo2{
+	background-image: url(./images/businessman.jpeg);
+	background-size: cover;
+
+}
+
+#photo3{
+	background-image: url(./images/coding.jpeg);
+	background-size: cover;
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
