@@ -30,14 +30,14 @@ const Header = () => {
 
 
 
-			<ul className="nav flex justify-around ph6-l ph2 mt3 flex-column-m items-center-m">
+			<ul className="nav flex justify-around ph6-l ph2 pv3 mt3 flex-column-m items-center-m">
 				
 				<div className="w-25-l flex justify-end pr4"> 
 					<img src ={lianaLogo} alt="liana technology logo" height="60" />
 
 				</div>
 
-				<div className="w-50-l  flex justify-start pt3">
+				<div className="w-50-l  flex justify-start pt2 ">
 
 					<li className="nav-item">
 						<a className="nav-link black-50 hover-black" href="#photo1">Company</a>

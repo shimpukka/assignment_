@@ -6,10 +6,10 @@ const Hero = () => {
 	return(
 
 		<div>
-			<div id="Hero" className="ph6 tc">
+			<div id="Hero" className="ph6 tc parallax">
 				
 				<div className="flex justify-center">
-					<h1 className="f1 fw3 white tc pt5">Software fueling digital marketing</h1>
+					<h1 className="f1 fw3 white tc pt6">Software fueling digital marketing</h1>
 				</div>
 
 				<div className="flex justify-center">

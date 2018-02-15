@@ -10,20 +10,14 @@ class Subscription extends React.Component {
 	handleClick = (e) => {
 		e.preventDefault();
 		this.setState({isToggleOn: !this.state.isToggleOn});
-		console.log(this.state.isToggleOn);
-	}
+	};
+	
 
 
 
 	render(){
 
 		const isToggleOn = this.state.isToggleOn;
-
-			let message="";
-			if (isToggleOn){
-				message="Thank you for your subscription!";
-			}
-
 
 		return(
 
@@ -34,15 +28,20 @@ class Subscription extends React.Component {
 
 				<form className="flex justify-center">
 				  <div className="form-group mh2 w-40">
-				    <input type="email" className="h2 form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+				    <input type="email" className="h2 form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
 				  </div>
 				  
 				  <button type="submit" className="h2 btn btn-primary" onClick={this.handleClick}> Subscribe</button>
-			
 				</form>
 
-				
-				<p>{message} </p>
+				{isToggleOn ? 
+					<div className="alert alert-success alert-dismissible fade show w-50-ns center" role="alert">
+						<button type="button" className="close" data-dismiss="alert" aria-label="Close">
+					    	<span aria-hidden="true">&times;</span>
+						</button>
+						<strong>Thank you for your subscription!</strong> 
+					</div>	
+				: "" }
 			
 			</div>
 		);

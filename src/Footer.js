@@ -33,19 +33,19 @@ const Footer = () => {
 					<div>
 						<ul className="nav">
 							<li className="nav-item ">
-								<a className="nav-link white-80" href="#photo1">Company</a>
+								<a className="nav-link white-80 hover-white" href="#photo1">Company</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link white-80" href="#photo2">Products</a>
+								<a className="nav-link white-80 hover-white" href="#photo2">Products</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link white-80" href="#photo3">Contact us</a>
+								<a className="nav-link white-80 hover-white" href="#photo3">Contact us</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link white-80" href="#news">News</a>
+								<a className="nav-link white-80 hover-white" href="#news">News</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link white-80" href="">Intranet</a>
+								<a className="nav-link white-80 hover-white" href="">Intranet</a>
 							</li>
 
 						</ul>
